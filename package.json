@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "PlayOffs NodeJS plateform repository",
   "scripts": {
-    "start": "docker build -t nodejs-plateform . && docker run -d --rm --name todo-pg-container -p 5432:5432 todo-pg && nodemon",
+    "start": "docker build -t nodejs-plateform . && docker run -d --rm --name nodejs-plateform-container -p 5432:5432 nodejs-plateform && nodemon",
     "test": "jest"
   },
   "keywords": [],
